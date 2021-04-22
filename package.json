@@ -1,0 +1,30 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production",
+        "build-importexcel": "cd nova-components/Importexcel && npm run dev",
+        "build-importexcel-prod": "cd nova-components/Importexcel && npm run prod",
+        "build-test-tool": "cd nova-components/TestTool && npm run dev",
+        "build-test-tool-prod": "cd nova-components/TestTool && npm run prod",
+        "build-ProvaCard": "cd nova-components/ProvaCard && npm run dev",
+        "build-ProvaCard-prod": "cd nova-components/ProvaCard && npm run prod",
+        "build-prova-card": "cd nova-components/ProvaCard && npm run dev",
+        "build-prova-card-prod": "cd nova-components/ProvaCard && npm run prod",
+        "build-statistics": "cd nova-components/Statistics && npm run dev",
+        "build-statistics-prod": "cd nova-components/Statistics && npm run prod"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.2.4",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.2.6",
+        "tailwindcss": "^2.0.3"
+    }
+}
