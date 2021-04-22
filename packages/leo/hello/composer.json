@@ -1,0 +1,12 @@
+{
+    "name": "leo/hello",
+    "description": "Prova pacchetto",
+    "authors": [
+        {
+            "name": "Leo",
+            "email": "decandia.leonardo95@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {"php": "^7.3|^8.0"}
+}
